@@ -1,0 +1,13 @@
+﻿  Zmena_ukazatele_ve_funkci_C.c.c
+C:\Users\vojta\OneDrive\Games\C++\FirstObjectProject\Zmena_ukazatele_ve_funkci_C.c\Zmena_ukazatele_ve_funkci_C.c.c(15,15): warning C4013: malloc nedefinované; předpokládá se extern vracející int.
+C:\Users\vojta\OneDrive\Games\C++\FirstObjectProject\Zmena_ukazatele_ve_funkci_C.c\Zmena_ukazatele_ve_funkci_C.c.c(15,28): warning C4047: =: int * se liší od: int úrovněmi indirekce.
+C:\Users\vojta\OneDrive\Games\C++\FirstObjectProject\Zmena_ukazatele_ve_funkci_C.c\Zmena_ukazatele_ve_funkci_C.c.c(17,9): warning C4477: printf: Formátovací řetězec %p vyžaduje argument typu void *, ale variadický argument 1 má typ uintptr_t.
+C:\Users\vojta\OneDrive\Games\C++\FirstObjectProject\Zmena_ukazatele_ve_funkci_C.c\Zmena_ukazatele_ve_funkci_C.c.c(17,9): warning C4477: printf: Formátovací řetězec %p vyžaduje argument typu void *, ale variadický argument 2 má typ uintptr_t.
+C:\Users\vojta\OneDrive\Games\C++\FirstObjectProject\Zmena_ukazatele_ve_funkci_C.c\Zmena_ukazatele_ve_funkci_C.c.c(22,27): warning C4047: =: int * se liší od: int úrovněmi indirekce.
+C:\Users\vojta\OneDrive\Games\C++\FirstObjectProject\Zmena_ukazatele_ve_funkci_C.c\Zmena_ukazatele_ve_funkci_C.c.c(24,9): warning C4477: printf: Formátovací řetězec %p vyžaduje argument typu void *, ale variadický argument 1 má typ uintptr_t.
+C:\Users\vojta\OneDrive\Games\C++\FirstObjectProject\Zmena_ukazatele_ve_funkci_C.c\Zmena_ukazatele_ve_funkci_C.c.c(24,9): warning C4477: printf: Formátovací řetězec %p vyžaduje argument typu void *, ale variadický argument 2 má typ uintptr_t.
+C:\Users\vojta\OneDrive\Games\C++\FirstObjectProject\Zmena_ukazatele_ve_funkci_C.c\Zmena_ukazatele_ve_funkci_C.c.c(36,9): warning C4477: printf: Formátovací řetězec %p vyžaduje argument typu void *, ale variadický argument 1 má typ uintptr_t.
+C:\Users\vojta\OneDrive\Games\C++\FirstObjectProject\Zmena_ukazatele_ve_funkci_C.c\Zmena_ukazatele_ve_funkci_C.c.c(36,9): warning C4477: printf: Formátovací řetězec %p vyžaduje argument typu void *, ale variadický argument 2 má typ uintptr_t.
+C:\Users\vojta\OneDrive\Games\C++\FirstObjectProject\Zmena_ukazatele_ve_funkci_C.c\Zmena_ukazatele_ve_funkci_C.c.c(44,9): warning C4477: printf: Formátovací řetězec %p vyžaduje argument typu void *, ale variadický argument 1 má typ uintptr_t.
+C:\Users\vojta\OneDrive\Games\C++\FirstObjectProject\Zmena_ukazatele_ve_funkci_C.c\Zmena_ukazatele_ve_funkci_C.c.c(44,9): warning C4477: printf: Formátovací řetězec %p vyžaduje argument typu void *, ale variadický argument 2 má typ uintptr_t.
+  Zmena_ukazatele_ve_funkci_C.c.vcxproj -> C:\Users\vojta\OneDrive\Games\C++\FirstObjectProject\Debug\Zmena_ukazatele_ve_funkci_C.exe
