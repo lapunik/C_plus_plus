@@ -1,0 +1,3 @@
+﻿  Kalk_test.cpp
+C:\Users\vojte\source\repos\ZPEL_domaci_priprava\Kalk_test\Kalk_test.cpp(45,44): warning C4805: !=: Potenciálně nebezpečné směšování typu char a typu bool v jedné operaci
+  Kalk_test.vcxproj -> C:\Users\vojte\source\repos\ZPEL_domaci_priprava\Debug\Kalk_test.exe
