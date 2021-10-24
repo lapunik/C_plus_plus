@@ -35,7 +35,7 @@ int Maximum(int* pole, int velikost_pole)
 int main()
 {
 
-	/*
+	//*
 
 	int velikost_pole;
 	cout << "Zadej velikost pole: ";
@@ -59,6 +59,8 @@ int main()
 
 	//*/
 
+	/*
+
 	int *pole = new int[4];
 
 	pole[0] = 10;
@@ -76,5 +78,6 @@ int main()
 		cout << pole_2[i] << "\n";
 
 	}
-
+	
+	//*/
 }

@@ -5,33 +5,33 @@ using namespace std;
 
 int main()
 {
-    vector<int> vek;
+    vector<int> vektor;
 
     for (int i = 0; i < 10; i++)
     {
-        vek.push_back(i);
+        vektor.push_back(i);
     }
 
-    cout << "Velikost: " << vek.size() << "\n";
+    cout << "Velikost: " << vektor.size() << "\n";
 
-    cout << "Posledni prvek: " << vek.back() << "\n";
+    cout << "Posledni prvek: " << vektor.back() << "\n";
 
-    cout << "Prvni prvek: " << vek.front() << "\n";
+    cout << "Prvni prvek: " << vektor.front() << "\n";
 
-    cout << "Jakykoliv prvek: " << vek.at(4) << "\n";
+    cout << "Jakykoliv prvek: " << vektor.at(4) << "\n";
 
-    for (int i = 0; i < vek.size(); i++)
+    for (int i = 0; i < vektor.size(); i++)
     {
-        cout << vek.at(i) << "  ";
-        //cout << vek[i] << "   ";
+        cout << vektor.at(i) << "  ";
+        //cout << vektor[i] << "   ";
     }
 
     cout << "\n";
 
-    while(!vek.empty())
+    while(!vektor.empty())
     {
-        cout << vek.back() << "  ";
-        vek.pop_back();
+        cout << vektor.back() << "\n";
+        vektor.pop_back();
     }
 
 }
