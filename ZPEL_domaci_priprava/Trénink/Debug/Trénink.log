@@ -1,0 +1,5 @@
+﻿  Trénink.cpp
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\ZPEL_domaci_priprava\Trénink\Trénink.cpp(23,20): warning C4018: <: signed/unsigned – neshoda
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\ZPEL_domaci_priprava\Trénink\Trénink.cpp(48,20): warning C4018: <: signed/unsigned – neshoda
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\ZPEL_domaci_priprava\Trénink\Trénink.cpp(138,20): warning C4018: <: signed/unsigned – neshoda
+  Trénink.vcxproj -> C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\ZPEL_domaci_priprava\Debug\Trénink.exe
