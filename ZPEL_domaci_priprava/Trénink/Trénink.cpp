@@ -81,7 +81,7 @@ bool* Porovnani_poli(int* pole1, int* pole2, int velikost)
 int Nejvetsi_rozdil(int* pole, int velikost) 
 {
 
-	int max_rozdil = pole[1] - pole[0];
+	int max_rozdil = 0;
 
 	for (int i = 1; i < velikost-1; i++)
 	{
