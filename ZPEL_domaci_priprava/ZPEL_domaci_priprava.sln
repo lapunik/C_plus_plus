@@ -69,6 +69,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cvi9", "cvi9", "{3E68454A-3
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Vyjimky", "Vyjimky\Vyjimky.vcxproj", "{60BD7C55-E63C-415A-8B5D-2812066CAB50}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Osetreni_vstupu", "Osetreni_vstupu\Osetreni_vstupu.vcxproj", "{57171476-BAC5-4D5B-BC25-9091547A218A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -269,6 +271,14 @@ Global
 		{60BD7C55-E63C-415A-8B5D-2812066CAB50}.Release|x64.Build.0 = Release|x64
 		{60BD7C55-E63C-415A-8B5D-2812066CAB50}.Release|x86.ActiveCfg = Release|Win32
 		{60BD7C55-E63C-415A-8B5D-2812066CAB50}.Release|x86.Build.0 = Release|Win32
+		{57171476-BAC5-4D5B-BC25-9091547A218A}.Debug|x64.ActiveCfg = Debug|x64
+		{57171476-BAC5-4D5B-BC25-9091547A218A}.Debug|x64.Build.0 = Debug|x64
+		{57171476-BAC5-4D5B-BC25-9091547A218A}.Debug|x86.ActiveCfg = Debug|Win32
+		{57171476-BAC5-4D5B-BC25-9091547A218A}.Debug|x86.Build.0 = Debug|Win32
+		{57171476-BAC5-4D5B-BC25-9091547A218A}.Release|x64.ActiveCfg = Release|x64
+		{57171476-BAC5-4D5B-BC25-9091547A218A}.Release|x64.Build.0 = Release|x64
+		{57171476-BAC5-4D5B-BC25-9091547A218A}.Release|x86.ActiveCfg = Release|Win32
+		{57171476-BAC5-4D5B-BC25-9091547A218A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -298,6 +308,7 @@ Global
 		{2C3366CB-F7E7-4C39-84F8-6015B352A273} = {D4A428FE-71E8-426A-9168-1FD73EBD8044}
 		{7216EA67-CB35-4679-A709-E734EBCB7A28} = {D4A428FE-71E8-426A-9168-1FD73EBD8044}
 		{60BD7C55-E63C-415A-8B5D-2812066CAB50} = {59C9342A-0F06-4C0E-8C7E-9686B6795FB9}
+		{57171476-BAC5-4D5B-BC25-9091547A218A} = {59C9342A-0F06-4C0E-8C7E-9686B6795FB9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CB00A158-DE20-4FFE-A142-C1F8D32510C2}
