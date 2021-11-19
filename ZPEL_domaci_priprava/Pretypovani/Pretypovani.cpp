@@ -17,11 +17,11 @@ int main()
 	//cout << vysledek;
 
 	char znak = 48; // znak z ASCII na místě 48
-	int nula = 0;
 
 	cout << znak << "\n";
-	cout << (int)znak << "\n";
+	cout << (int)znak << "\n"; // spíš nepoužívat
 
+	cout << static_cast<int>(znak) << "\n";
 
 }
 

@@ -1,0 +1,8 @@
+﻿  Struktury.cpp
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\ZPEL_domaci_priprava\Struktury\Struktury.cpp(17,7): error C3646: rasa: neznámý specifikátor override
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\ZPEL_domaci_priprava\Struktury\Struktury.cpp(17,11): error C4430: Chybějící specifikátor typu – předpokládá se typ int. Poznámka: C++ nepodporuje typ default-int.
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\ZPEL_domaci_priprava\Struktury\Struktury.cpp(35,44): error C2039: rasa není členem: Postava.
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\ZPEL_domaci_priprava\Struktury\Struktury.cpp(14): message : viz deklarace: Postava
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\ZPEL_domaci_priprava\Struktury\Struktury.cpp(49,5): error C2039: rasa není členem: Postava.
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\ZPEL_domaci_priprava\Struktury\Struktury.cpp(14): message : viz deklarace: Postava
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\ZPEL_domaci_priprava\Struktury\Struktury.cpp(52,36): error C2078: moc velký počet inicializátorů
