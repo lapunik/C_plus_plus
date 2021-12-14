@@ -20,9 +20,7 @@ int main()
 	delete b; // uvolním adresu pro další proměnné!
 	b = NULL; // koukej do kouta, nikoliv na tu adresu
 
-
 	// Dvě proměnné koukající na stejné místo v paměti
-
 
 	b = &a;
 
