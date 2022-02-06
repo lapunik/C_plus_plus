@@ -5,6 +5,7 @@ using namespace std;
 
 int main()
 {
+
     Postava p1("Legolas", "elf");
     Postava p2("Saruman", "carodej");
 
@@ -46,8 +47,6 @@ int main()
         cout << "\n";
     
     }
-
-
 
 
     //Postava* p3 = new Postava("Aragorn", "clovek");

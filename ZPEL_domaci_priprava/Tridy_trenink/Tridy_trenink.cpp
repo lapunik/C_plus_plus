@@ -22,23 +22,42 @@ public:
         shora,
     };
 
-    Kvadr(int a, int b, int c, material m)
+    Kvadr() 
     {
-        Zmen_rozmery(a, b, c);
-        Zmen_material(mat);
+    
     }
 
-    Kvadr()
+    Kvadr(int aa, int bb, int cc)
     {
-        Zmen_rozmery(5, 6, 7);
-        Zmen_material(drevo);
+        a = aa;
+        b = bb;
+        c = cc;
     }
 
-    void Zmen_rozmery(int a, int b, int c)
+
+
+    Kvadr(int aa, int bb, int cc, Kvadr::material m)
     {
-        this->a = a;
-        this->b = b;
-        this->c = c;
+        a = aa;
+        b = bb;
+        c = cc;
+        mat = m;
+    }
+
+    Kvadr(Kvadr::material m)
+    {
+
+        mat = m;
+    }
+
+    void Zmen_rozmery(int aa, int bb, int cc)
+    {
+
+        a = aa;
+        b = bb;
+        c = cc;
+
+        Objem();
     }
 
     void Zmen_material(material m)
@@ -46,9 +65,14 @@ public:
         mat = m;
     }
 
-    int Objem()
+    void Objem()
     {
-        return a * b * c;
+        objem =  a * b * c;
+    }
+
+    int Vrat_objem() 
+    {
+        return objem;
     }
 
     int Povrch()
@@ -186,29 +210,60 @@ public:
 private:
 
     int a = 1, b = 1, c = 2;
+    int objem;
     material mat = drevo;
 };
 
+
+int soucet(int a, int b) 
+{
+    return a + b;
+}
+
 int main()
 {
+
+
     int delka = 9, sirka = 4, vyska = 6;
-    cout << "Zadej rozmery kvadru: " << "\n";
-    cin >> delka >> sirka >> vyska;
+    //cout << "Zadej rozmery kvadru: " << "\n";
+    //cin >> delka >> sirka >> vyska;
 
-    Kvadr k(delka, sirka, vyska,Kvadr::drevo);
-    cout << "Objem kvadru: " << k.Objem() << "\n";
-    cout << "Povrch kvadru: " << k.Povrch() << "\n\n";
-    k.Vykresli_se_2D(Kvadr::zepredu);
-    k.Vykresli_se_2D(Kvadr::z_prava);
-    k.Vykresli_se_2D(Kvadr::shora);
-    k.Vykresli_se_3D();
+    Kvadr k(delka, sirka, vyska, Kvadr::drevo);
+    Kvadr k1(delka, sirka, vyska);
 
-    Kvadr kk; // ukázat příkald se stringem.
+    int a =  5;
+    int a = 5;
 
-    cout << "Objem kvadru: " << kk.Objem() << "\n";
-    cout << "Povrch kvadru: " << kk.Povrch() << "\n\n";
-    kk.Vykresli_se_2D(Kvadr::zepredu);
-    kk.Vykresli_se_2D(Kvadr::z_prava);
-    kk.Vykresli_se_2D(Kvadr::shora);
-    kk.Vykresli_se_3D();
+
+    Kvadr k2(Kvadr::drevo);
+
+
+    k.Objem();
+
+    cout << k.Vrat_objem() << "\n";
+
+    k.Zmen_rozmery(15, 4, 6);
+   
+    cout << k.Vrat_objem() << "\n";
+    
+   
+
+
+
+
+    //cout << "Objem kvadru: " << k.Objem() << "\n";
+    //cout << "Povrch kvadru: " << k.Povrch() << "\n\n";
+    //k.Vykresli_se_2D(Kvadr::zepredu);
+    //k.Vykresli_se_2D(Kvadr::z_prava);
+    //k.Vykresli_se_2D(Kvadr::shora);
+    //k.Vykresli_se_3D();
+
+    //Kvadr k2; // ukázat příkald se stringem.
+
+    //cout << "Objem kvadru: " << k2.Objem() << "\n";
+    //cout << "Povrch kvadru: " << k2.Povrch() << "\n\n";
+    //k2.Vykresli_se_2D(Kvadr::zepredu);
+    //k2.Vykresli_se_2D(Kvadr::z_prava);
+    //k2.Vykresli_se_2D(Kvadr::shora);
+    //k2.Vykresli_se_3D();
 }

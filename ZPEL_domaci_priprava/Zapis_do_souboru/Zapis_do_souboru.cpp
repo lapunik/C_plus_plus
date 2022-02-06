@@ -79,7 +79,7 @@ int main()
 	//*/
 
 	// Čtení celého souboru
-	/*
+	//*
 	nazev_promene.open("textovy_soubor.txt", ios::in); // Soubor se nepřepisuje, text se přidává na konec
 
 	string text((istreambuf_iterator<char>(nazev_promene)), istreambuf_iterator<char>());

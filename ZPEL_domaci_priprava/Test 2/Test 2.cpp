@@ -45,15 +45,15 @@ int nacti_hodnotu(std::string vyzva, int min, int max)
 
 double vypocet_taxy(double kilometry) 
 {
-	if (kilometry < 25) 
+	if (kilometry <= 25) 
 	{
 		return kilometry * 24.0;
 	}
-	else if (kilometry < 50)
+	else if (kilometry <= 50)
 	{
 		return kilometry * 21.0;
 	}
-	else if (kilometry < 75)
+	else if (kilometry <= 75)
 	{
 		return kilometry * 17.0;
 	}
@@ -66,15 +66,15 @@ double vypocet_taxy(double kilometry)
 
 double vypocet_ceny(int pocet_kusu)
 {
-	if (pocet_kusu < 25)
+	if (pocet_kusu <= 25)
 	{
 		return pocet_kusu * 24.9;
 	}
-	else if (pocet_kusu < 50)
+	else if (pocet_kusu <= 50)
 	{
 		return pocet_kusu * 21.9;
 	}
-	else if (pocet_kusu < 75)
+	else if (pocet_kusu <= 75)
 	{
 		return pocet_kusu * 17.9;
 	}

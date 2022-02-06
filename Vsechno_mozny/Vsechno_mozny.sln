@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TemplateTest", "TemplateTes
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Zmena_ukazatele_ve_funkci_C", "Zmena_ukazatele_ve_funkci_C.c\Zmena_ukazatele_ve_funkci_C.c.vcxproj", "{3DD0FD7B-8523-4FD2-8A57-037F6FE6203E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Equation_learner", "Equation_learner\Equation_learner.vcxproj", "{5591B2CF-083E-4372-B890-AFA32E838E25}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +73,14 @@ Global
 		{3DD0FD7B-8523-4FD2-8A57-037F6FE6203E}.Release|x64.Build.0 = Release|x64
 		{3DD0FD7B-8523-4FD2-8A57-037F6FE6203E}.Release|x86.ActiveCfg = Release|Win32
 		{3DD0FD7B-8523-4FD2-8A57-037F6FE6203E}.Release|x86.Build.0 = Release|Win32
+		{5591B2CF-083E-4372-B890-AFA32E838E25}.Debug|x64.ActiveCfg = Debug|x64
+		{5591B2CF-083E-4372-B890-AFA32E838E25}.Debug|x64.Build.0 = Debug|x64
+		{5591B2CF-083E-4372-B890-AFA32E838E25}.Debug|x86.ActiveCfg = Debug|Win32
+		{5591B2CF-083E-4372-B890-AFA32E838E25}.Debug|x86.Build.0 = Debug|Win32
+		{5591B2CF-083E-4372-B890-AFA32E838E25}.Release|x64.ActiveCfg = Release|x64
+		{5591B2CF-083E-4372-B890-AFA32E838E25}.Release|x64.Build.0 = Release|x64
+		{5591B2CF-083E-4372-B890-AFA32E838E25}.Release|x86.ActiveCfg = Release|Win32
+		{5591B2CF-083E-4372-B890-AFA32E838E25}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

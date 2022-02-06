@@ -18,6 +18,7 @@ class Postava
 		int durabilita;
 	};
 
+
 private:
 	
 	int const max_pocet_zivotu = 100;
