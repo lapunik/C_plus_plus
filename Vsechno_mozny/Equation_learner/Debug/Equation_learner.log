@@ -1,0 +1,15 @@
+﻿  Equation_learner.cpp
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Equation_learner\Equation_learner.cpp(128,23): warning C4018: <: signed/unsigned – neshoda
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Equation_learner\Equation_learner.cpp(143,23): warning C4018: <: signed/unsigned – neshoda
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Equation_learner\Equation_learner.cpp(161,23): warning C4018: <: signed/unsigned – neshoda
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Equation_learner\Equation_learner.cpp(163,27): warning C4018: <: signed/unsigned – neshoda
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Equation_learner\Equation_learner.cpp(174,27): warning C4018: <: signed/unsigned – neshoda
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Equation_learner\Equation_learner.cpp(178,31): warning C4018: <: signed/unsigned – neshoda
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Equation_learner\Equation_learner.cpp(203,23): warning C4018: <: signed/unsigned – neshoda
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Equation_learner\Equation_learner.cpp(222,23): warning C4018: <: signed/unsigned – neshoda
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Equation_learner\Equation_learner.cpp(226,27): warning C4018: <: signed/unsigned – neshoda
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Equation_learner\Equation_learner.cpp(24,22): warning C4018: <: signed/unsigned – neshoda
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Equation_learner\Equation_learner.cpp(258): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona std::vector<double,std::allocator<double>> calculate<function>(std::vector<function,std::allocator<function>>,std::vector<double,std::allocator<double>>)
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Equation_learner\Equation_learner.cpp(50,23): warning C4018: <: signed/unsigned – neshoda
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Equation_learner\Equation_learner.cpp(259): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona std::vector<double,std::allocator<double>> derivate<function>(std::vector<function,std::allocator<function>>,std::vector<double,std::allocator<double>>)
+  Equation_learner.vcxproj -> C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Debug\Equation_learner.exe
