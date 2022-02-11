@@ -1,0 +1,12 @@
+﻿  Plotter.cpp
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Plotter\Plotter.cpp(129,23): warning C4018: <: signed/unsigned – neshoda
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Plotter\Plotter.cpp(144,23): warning C4018: <: signed/unsigned – neshoda
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Plotter\Plotter.cpp(162,23): warning C4018: <: signed/unsigned – neshoda
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Plotter\Plotter.cpp(164,27): warning C4018: <: signed/unsigned – neshoda
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Plotter\Plotter.cpp(175,27): warning C4018: <: signed/unsigned – neshoda
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Plotter\Plotter.cpp(179,31): warning C4018: <: signed/unsigned – neshoda
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Plotter\Plotter.cpp(204,23): warning C4018: <: signed/unsigned – neshoda
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Plotter\Plotter.cpp(223,23): warning C4018: <: signed/unsigned – neshoda
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Plotter\Plotter.cpp(227,27): warning C4018: <: signed/unsigned – neshoda
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Plotter\Plotter.cpp(267,12): warning C4101: r: neodkazovaná lokální proměnná
+  Plotter.vcxproj -> C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Debug\Plotter.exe
