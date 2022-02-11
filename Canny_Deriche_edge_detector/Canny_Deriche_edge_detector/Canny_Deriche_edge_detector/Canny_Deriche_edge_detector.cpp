@@ -374,7 +374,7 @@ int main()
 {
     BMP picture;
 
-    if (!picture.readBMP("h.bmp"))
+    if (!picture.readBMP("e.bmp"))
     {
         std::cout << "The file does not exist.\n";
         return 0;
@@ -384,9 +384,9 @@ int main()
 
     picture.gray_scale();
 
-    picture.deriche_filter(0.3);
+    //picture.deriche_filter(0.3);
 
-    //picture.draw_gs();
+    picture.draw_gs();
 
     //picture.writeBMP("gg.bmp");
 }

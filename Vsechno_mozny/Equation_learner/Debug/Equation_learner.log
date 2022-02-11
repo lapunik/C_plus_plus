@@ -1,15 +1,32 @@
 ﻿  Equation_learner.cpp
-C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Equation_learner\Equation_learner.cpp(128,23): warning C4018: <: signed/unsigned – neshoda
-C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Equation_learner\Equation_learner.cpp(143,23): warning C4018: <: signed/unsigned – neshoda
-C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Equation_learner\Equation_learner.cpp(161,23): warning C4018: <: signed/unsigned – neshoda
-C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Equation_learner\Equation_learner.cpp(163,27): warning C4018: <: signed/unsigned – neshoda
-C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Equation_learner\Equation_learner.cpp(174,27): warning C4018: <: signed/unsigned – neshoda
-C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Equation_learner\Equation_learner.cpp(178,31): warning C4018: <: signed/unsigned – neshoda
-C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Equation_learner\Equation_learner.cpp(203,23): warning C4018: <: signed/unsigned – neshoda
-C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Equation_learner\Equation_learner.cpp(222,23): warning C4018: <: signed/unsigned – neshoda
-C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Equation_learner\Equation_learner.cpp(226,27): warning C4018: <: signed/unsigned – neshoda
-C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Equation_learner\Equation_learner.cpp(24,22): warning C4018: <: signed/unsigned – neshoda
-C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Equation_learner\Equation_learner.cpp(258): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona std::vector<double,std::allocator<double>> calculate<function>(std::vector<function,std::allocator<function>>,std::vector<double,std::allocator<double>>)
-C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Equation_learner\Equation_learner.cpp(50,23): warning C4018: <: signed/unsigned – neshoda
-C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Equation_learner\Equation_learner.cpp(259): message : Zobrazit odkaz na kompilované vytváření instancí funkce šablona std::vector<double,std::allocator<double>> derivate<function>(std::vector<function,std::allocator<function>>,std::vector<double,std::allocator<double>>)
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Equation_learner\Equation_learner.cpp(43,23): warning C4018: <: signed/unsigned – neshoda
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Equation_learner\Equation_learner.cpp(48,23): warning C4018: <: signed/unsigned – neshoda
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Equation_learner\Equation_learner.cpp(50,27): warning C4018: <: signed/unsigned – neshoda
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Equation_learner\Equation_learner.cpp(57,31): warning C4018: <: signed/unsigned – neshoda
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Equation_learner\Equation_learner.cpp(86,23): warning C4018: <: signed/unsigned – neshoda
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Equation_learner\Equation_learner.cpp(96,22): warning C4018: <: signed/unsigned – neshoda
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Equation_learner\Equation_learner.cpp(122,23): warning C4018: <: signed/unsigned – neshoda
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Equation_learner\Equation_learner.cpp(126,31): warning C4018: <: signed/unsigned – neshoda
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Equation_learner\Equation_learner.cpp(135,35): warning C4018: <: signed/unsigned – neshoda
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Equation_learner\Equation_learner.cpp(174,23): warning C4018: <: signed/unsigned – neshoda
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Equation_learner\Equation_learner.cpp(184,23): warning C4018: <: signed/unsigned – neshoda
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Equation_learner\Equation_learner.cpp(230,29): warning C4018: <: signed/unsigned – neshoda
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Equation_learner\Equation_learner.cpp(232,31): warning C4018: <: signed/unsigned – neshoda
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Equation_learner\Equation_learner.cpp(234,35): warning C4018: <: signed/unsigned – neshoda
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Equation_learner\Equation_learner.cpp(300,29): warning C4018: <: signed/unsigned – neshoda
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Equation_learner\Equation_learner.cpp(302,31): warning C4018: <: signed/unsigned – neshoda
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Equation_learner\Equation_learner.cpp(304,35): warning C4018: <: signed/unsigned – neshoda
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Equation_learner\Equation_learner.cpp(424,23): warning C4018: <: signed/unsigned – neshoda
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Equation_learner\Equation_learner.cpp(439,23): warning C4018: <: signed/unsigned – neshoda
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Equation_learner\Equation_learner.cpp(457,23): warning C4018: <: signed/unsigned – neshoda
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Equation_learner\Equation_learner.cpp(459,27): warning C4018: <: signed/unsigned – neshoda
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Equation_learner\Equation_learner.cpp(470,27): warning C4018: <: signed/unsigned – neshoda
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Equation_learner\Equation_learner.cpp(474,31): warning C4018: <: signed/unsigned – neshoda
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Equation_learner\Equation_learner.cpp(499,23): warning C4018: <: signed/unsigned – neshoda
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Equation_learner\Equation_learner.cpp(510,23): warning C4018: <: signed/unsigned – neshoda
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Equation_learner\Equation_learner.cpp(520,25): warning C4018: <: signed/unsigned – neshoda
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Equation_learner\Equation_learner.cpp(522,27): warning C4018: <: signed/unsigned – neshoda
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Equation_learner\Equation_learner.cpp(524,31): warning C4018: <: signed/unsigned – neshoda
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Equation_learner\Equation_learner.cpp(535,23): warning C4018: <: signed/unsigned – neshoda
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Equation_learner\Equation_learner.cpp(539,27): warning C4018: <: signed/unsigned – neshoda
   Equation_learner.vcxproj -> C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Debug\Equation_learner.exe
