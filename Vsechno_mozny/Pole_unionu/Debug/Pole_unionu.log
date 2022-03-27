@@ -1,0 +1,5 @@
+﻿  Pole_unionu.cpp
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Pole_unionu\Pole_unionu.cpp(8,12): error C2371: universalni_typ::data: předefinování; odlišné základní typy
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Pole_unionu\Pole_unionu.cpp(7): message : viz deklarace: universalni_typ::data
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Pole_unionu\Pole_unionu.cpp(9,10): error C2371: universalni_typ::data: předefinování; odlišné základní typy
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Pole_unionu\Pole_unionu.cpp(7): message : viz deklarace: universalni_typ::data

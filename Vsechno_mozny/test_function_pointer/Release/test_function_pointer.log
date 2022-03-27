@@ -1,0 +1,7 @@
+﻿  test_function_pointer.cpp
+  Vytváří se kód.
+  33 of 158 functions (20.9%) were compiled, the rest were copied from previous compilation.
+    22 functions were new in current compilation
+    25 functions had inline decision re-evaluated but remain unchanged
+  Vytváření kódu se dokončilo.
+  test_function_pointer.vcxproj -> C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Release\test_function_pointer.exe

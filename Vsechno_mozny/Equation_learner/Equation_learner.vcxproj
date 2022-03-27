@@ -140,6 +140,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Equation_learner.cpp" />
+    <ClCompile Include="pbPlots.cpp" />
+    <ClCompile Include="supportLib.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pbPlots.h" />
+    <ClInclude Include="supportLib.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

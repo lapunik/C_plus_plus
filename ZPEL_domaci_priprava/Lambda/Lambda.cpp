@@ -43,8 +43,8 @@ int main() {
     //}
 
 
-    // Tady je ta lambda funkce využita právě jako třetí argument funcke sort 
-    //std::sort(osoby.begin(), osoby.end(), [](Osoba &a, Osoba &b) {return a.vek < b.vek; });
+     //Tady je ta lambda funkce využita právě jako třetí argument funcke sort 
+    //std::sort(osoby.begin(), osoby.end(), [](Osoba &a, Osoba &b) {return a.vyska < b.vyska; });
 
     //for (auto os : osoby)
     //{
@@ -83,7 +83,7 @@ int main() {
     smer s = sestupne;
     hodnota h = vyska;
 
-    std::sort(osoby.begin(), osoby.end(), [=](Osoba& a, Osoba& b) {return((s == vzestupne) ? ((h == vek) ? a.vek < b.vek : a.vyska < b.vyska) : ((h == vek) ? a.vek > b.vek : a.vyska > b.vyska)); });
+    std::sort(osoby.begin(), osoby.end(), [s,h](Osoba& a, Osoba& b) {return((s == vzestupne) ? ((h == vek) ? a.vek < b.vek : a.vyska < b.vyska) : ((h == vek) ? a.vek > b.vek : a.vyska > b.vyska)); });
 
     for (auto os : osoby)
     {
