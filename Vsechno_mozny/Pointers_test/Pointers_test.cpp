@@ -113,14 +113,14 @@ int main()
 
 	//*/
 
-	//*
+	/*
 
 	int *a = NULL;
 
 	cout << "Adresa hodnoty: " << a << "\nAdresa adresy: " << &a << "\nHodnota: bez hodnoty" << "\n\n";
 
-	//Zmena_ukazatele_ve_funkci(&a);
-	Zmena_ukazatele_ve_funkci_II(a);
+	Zmena_ukazatele_ve_funkci(&a);
+	//Zmena_ukazatele_ve_funkci_II(a);
 	//Zmena_ukazatele_ve_funkci_NEFUNKCNI(a);
 
 	cout << "Adresa hodnoty: " << a << "\nAdresa adresy: " << &a << "\nHodnota: " << *a << "\n\n";

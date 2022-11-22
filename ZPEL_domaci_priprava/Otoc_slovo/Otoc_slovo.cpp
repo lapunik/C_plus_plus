@@ -1,24 +1,26 @@
 ﻿#include <iostream>
+#include <string>
 
-using namespace std;
-
-string Otoc_slovo(string slovo)
+std::string otoc_slovo(std::string retezec)
 {
-	string otocene_slovo = slovo;
+	std::string retezec_otoceny = retezec;
 
-	int velikost = (int)slovo.length();
+	int velikost_retezce = (int)retezec.size();
 
-	for (int i = 0; i < velikost; i++)
+	for (int i = 0; i < velikost_retezce; i++)
 	{
-		otocene_slovo[i] = slovo[velikost - i - 1];
+		retezec_otoceny[i] = retezec[velikost_retezce - i - 1];
 	}
-
-	return otocene_slovo;
+	return retezec_otoceny;
 }
 
 int main()
 {
-	string slovo = "nejkulatoulinkatejsi";
-
-	cout << "Slovo obracene: " << Otoc_slovo(slovo) << "\n";
+	std::string slovo;
+	std::cin >> slovo;
+	int index;
+	std::cin >> index;
+	char znak;
+	std::cin >> znak;
+	std::cout << otoc_slovo(slovo);
 }

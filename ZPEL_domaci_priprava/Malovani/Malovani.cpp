@@ -4,21 +4,18 @@ using namespace std;
 
 int main()
 {
-	// Až budueme dělat hru
 
 	char a = 'X';
 	char b = '-';
 
-	/* Ukol 1
+	cout << "Ukol 1:\n\n";
 
 	for (int i = 0; i < 9; i++)
 	{
 		cout << a;
 	}
-	
-	//*/
 
-	/* Ukol 2
+	cout << "\nUkol 2:\n\n";
 
 	for (int i = 0; i < 9; i++)
 	{
@@ -31,22 +28,31 @@ int main()
 			cout << a;
 		}
 	}
-	//*/
 
-	/* Ukol 3
+	cout << "\nUkol 3:\n\n";
 
 	for (int j = 0; j < 5; j++)
 	{
 		for (int i = 0; i < 9; i++)
 		{
-				cout << a;
+			cout << a;
 		}
 		cout << '\n';
 	}
 
-	//*/
+	//cout << "\nUkol 3:\n\n";
 
-	/* Ukol 4
+	//for (int j = 1; j < (5*9)+1; j++)
+	//{
+	//	cout << a;
+
+	//	if((j % 9) == 0)
+	//	{
+	//		cout << '\n';
+	//	}
+	//}
+
+	cout << "\nUkol 4:\n\n";
 
 	for (int j = 0; j < 5; j++)
 	{
@@ -65,9 +71,7 @@ int main()
 		cout << '\n';
 	}
 
-	//*/
-
-	/* Ukol 5
+	cout << "\nUkol 5:\n\n";
 
 	for (int j = 0; j < 5; j++)
 	{
@@ -86,9 +90,7 @@ int main()
 		cout << '\n';
 	}
 
-	//*/
-
-	/* Ukol 6
+	cout << "\nUkol 6:\n\n";
 
 	for (int j = 0; j < 5; j++)
 	{
@@ -106,15 +108,13 @@ int main()
 		cout << '\n';
 	}
 
-	//*/
-
-	/* Ukol 7
+	cout << "\nUkol 7:\n\n";
 
 	for (int j = 0; j < 5; j++)
 	{
 		for (int i = 0; i < 5; i++)
 		{
-			if (i>=j)
+			if (i >= j)
 			{
 				cout << a;
 			}
@@ -126,15 +126,13 @@ int main()
 		cout << '\n';
 	}
 
-	//*/
-
-	/* Ukol 8
+	cout << "\nUkol 8:\n\n";
 
 	for (int j = 0; j < 5; j++)
 	{
 		for (int i = 0; i < 5; i++)
 		{
-			if (i>=4-j)
+			if (i >= 4 - j)
 			{
 				cout << a;
 			}
@@ -146,9 +144,7 @@ int main()
 		cout << '\n';
 	}
 
-	//*/
-
-	/* Ukol 9
+	cout << "\nUkol 9:\n\n";
 
 	for (int j = 5; j < 10; j++)
 	{
@@ -166,9 +162,7 @@ int main()
 		cout << "\n";
 	}
 
-	//*/
-
-	/* Ukol 10
+	cout << "\nUkol 10:\n\n";
 
 	for (int j = 0; j < 5; j++)
 	{
@@ -187,32 +181,8 @@ int main()
 				cout << "-";
 			}
 
-			//if (j % 2 == 0)
-			//{
-			//	if (i % 2 == 0)
-			//	{
-			//		cout << "X";
-			//	}
-			//	else
-			//	{
-			//		cout << "-";
-			//	}
-			//}
-			//else
-			//{
-			//	if (i % 2 == 0)
-			//	{
-			//		cout << "-";
-			//	}
-			//	else
-			//	{
-			//		cout << "X";
-			//	}
-			//}
-
 		}
 		cout << "\n";
 	}
 
-	//*/
 }

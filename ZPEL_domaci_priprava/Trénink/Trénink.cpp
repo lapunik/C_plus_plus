@@ -54,7 +54,7 @@ int Vyskyt(string s, char znak)
 	return pocet_znaku;
 }
 
-void Nahrad_hodnotu_v_poli(int* pole, int velikost, int co, int za)
+void Nahrad_hodnotu_v_poli(int pole[], int velikost, int co, int za)
 {
 	for (int i = 0; i < velikost; i++)
 	{
@@ -234,7 +234,7 @@ int main()
 	teploty2[3] = 13;
 	teploty2[4] = 1;
 
-	cout << Porovnani, zda jsou teploty v prnim poli vetsi nez ve druhem:\n";
+	cout << "Porovnani, zda jsou teploty v prnim poli vetsi nez ve druhem : \n";
 
 	bool* logicke_pole = Porovnani_poli(teploty, teploty2, velikost);
 
@@ -269,7 +269,7 @@ int main()
 	}
 	*/
 
-	//*
+	/*
 
 	string slovo = "nejkulatoulinkatejsi";
 

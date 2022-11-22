@@ -1,5 +1,9 @@
 ﻿#include <iostream>
 
+#define STRED_HRACI_PLOCHY 10
+#define SIRKA_BLOKU 10
+#define VYSKA_BLOKU 10
+
 class Nadoba
 {
 public:
@@ -65,6 +69,7 @@ private:
 	double objem = 0;
 };
 
+
 int main()
 {
 
@@ -82,7 +87,5 @@ int main()
 
 	nadoba.Stav_litry();
 	nadoba.Stav_procenta();
-
-
 
 }

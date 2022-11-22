@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31702.278
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DatoveStruktury", "DatoveStruktury\DatoveStruktury.vcxproj", "{959E7F33-CEF5-4CD3-BE28-7B53D042504F}"
 EndProject
@@ -26,6 +26,10 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Equation_learner_v1", "Equation_learner_v1\Equation_learner_v1.vcxproj", "{79CF690A-2340-4DE0-BF53-F6E3AC1B8C75}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Equation_learner_v2", "Equation_learner_v2\Equation_learner_v2.vcxproj", "{89FD2D3D-FF72-41D9-80C8-62D926F8A663}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JSON_test", "JSON_test\JSON_test.vcxproj", "{D65130CB-81A0-49B8-A502-0A9FE70CB5BF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Negativni_indexy", "Negativni_indexy\Negativni_indexy.vcxproj", "{FB1CF6C1-6848-47F3-B443-F8B090B725F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -131,6 +135,22 @@ Global
 		{89FD2D3D-FF72-41D9-80C8-62D926F8A663}.Release|x64.Build.0 = Release|x64
 		{89FD2D3D-FF72-41D9-80C8-62D926F8A663}.Release|x86.ActiveCfg = Release|Win32
 		{89FD2D3D-FF72-41D9-80C8-62D926F8A663}.Release|x86.Build.0 = Release|Win32
+		{D65130CB-81A0-49B8-A502-0A9FE70CB5BF}.Debug|x64.ActiveCfg = Debug|x64
+		{D65130CB-81A0-49B8-A502-0A9FE70CB5BF}.Debug|x64.Build.0 = Debug|x64
+		{D65130CB-81A0-49B8-A502-0A9FE70CB5BF}.Debug|x86.ActiveCfg = Debug|Win32
+		{D65130CB-81A0-49B8-A502-0A9FE70CB5BF}.Debug|x86.Build.0 = Debug|Win32
+		{D65130CB-81A0-49B8-A502-0A9FE70CB5BF}.Release|x64.ActiveCfg = Release|x64
+		{D65130CB-81A0-49B8-A502-0A9FE70CB5BF}.Release|x64.Build.0 = Release|x64
+		{D65130CB-81A0-49B8-A502-0A9FE70CB5BF}.Release|x86.ActiveCfg = Release|Win32
+		{D65130CB-81A0-49B8-A502-0A9FE70CB5BF}.Release|x86.Build.0 = Release|Win32
+		{FB1CF6C1-6848-47F3-B443-F8B090B725F2}.Debug|x64.ActiveCfg = Debug|x64
+		{FB1CF6C1-6848-47F3-B443-F8B090B725F2}.Debug|x64.Build.0 = Debug|x64
+		{FB1CF6C1-6848-47F3-B443-F8B090B725F2}.Debug|x86.ActiveCfg = Debug|Win32
+		{FB1CF6C1-6848-47F3-B443-F8B090B725F2}.Debug|x86.Build.0 = Debug|Win32
+		{FB1CF6C1-6848-47F3-B443-F8B090B725F2}.Release|x64.ActiveCfg = Release|x64
+		{FB1CF6C1-6848-47F3-B443-F8B090B725F2}.Release|x64.Build.0 = Release|x64
+		{FB1CF6C1-6848-47F3-B443-F8B090B725F2}.Release|x86.ActiveCfg = Release|Win32
+		{FB1CF6C1-6848-47F3-B443-F8B090B725F2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

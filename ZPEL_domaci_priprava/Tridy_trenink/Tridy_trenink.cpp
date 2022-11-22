@@ -65,9 +65,10 @@ public:
         mat = m;
     }
 
-    void Objem()
+    int Objem()
     {
         objem =  a * b * c;
+        return objem;
     }
 
     int Vrat_objem() 
@@ -77,7 +78,8 @@ public:
 
     int Povrch()
     {
-        return 2 * (a * b + b * c + c * a);
+        povrch = 2 * (a * b + b * c + c * a);
+        return povrch;
     }
 
     void Vykresli_se_3D()
@@ -211,6 +213,7 @@ private:
 
     int a = 1, b = 1, c = 2;
     int objem;
+    int povrch;
     material mat = drevo;
 };
 
@@ -223,47 +226,19 @@ int soucet(int a, int b)
 int main()
 {
 
-
-    int delka = 9, sirka = 4, vyska = 6;
-    //cout << "Zadej rozmery kvadru: " << "\n";
-    //cin >> delka >> sirka >> vyska;
+    int delka = 0, sirka = 0, vyska = 0;
+    cout << "Zadej rozmery kvadru: " << "\n";
+    cin >> delka >> sirka >> vyska;
 
     Kvadr k(delka, sirka, vyska, Kvadr::drevo);
-    Kvadr k1(delka, sirka, vyska);
-
-    int a =  5;
-    int a = 5;
-
-
-    Kvadr k2(Kvadr::drevo);
-
-
-    k.Objem();
-
-    cout << k.Vrat_objem() << "\n";
-
-    k.Zmen_rozmery(15, 4, 6);
    
-    cout << k.Vrat_objem() << "\n";
-    
-   
+    std::cout << "Objem kvadru: ";
+    std::cout << k.Objem() << "\n";
 
+    cout << "Povrch kvadru: " << k.Povrch() << "\n\n";
+    k.Vykresli_se_2D(Kvadr::zepredu);
+    k.Vykresli_se_2D(Kvadr::z_prava);
+    k.Vykresli_se_2D(Kvadr::shora);
+    k.Vykresli_se_3D();
 
-
-
-    //cout << "Objem kvadru: " << k.Objem() << "\n";
-    //cout << "Povrch kvadru: " << k.Povrch() << "\n\n";
-    //k.Vykresli_se_2D(Kvadr::zepredu);
-    //k.Vykresli_se_2D(Kvadr::z_prava);
-    //k.Vykresli_se_2D(Kvadr::shora);
-    //k.Vykresli_se_3D();
-
-    //Kvadr k2; // ukázat příkald se stringem.
-
-    //cout << "Objem kvadru: " << k2.Objem() << "\n";
-    //cout << "Povrch kvadru: " << k2.Povrch() << "\n\n";
-    //k2.Vykresli_se_2D(Kvadr::zepredu);
-    //k2.Vykresli_se_2D(Kvadr::z_prava);
-    //k2.Vykresli_se_2D(Kvadr::shora);
-    //k2.Vykresli_se_3D();
 }

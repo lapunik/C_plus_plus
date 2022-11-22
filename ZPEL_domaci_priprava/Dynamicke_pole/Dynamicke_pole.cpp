@@ -32,10 +32,33 @@ int Maximum(int* pole, int velikost_pole)
 	return max;
 }
 
+int najdi_indexy_vyskytu_hodnoty(int* pole, int velikost_pole, int hodnota) 
+{
+	int* cetnost_temp = new int[velikost_pole];
+	int counter = 0;
+
+	for (int i = 0; i < velikost_pole; i++) 
+	{
+		if (pole[i] == hodnota) 
+		{
+			cetnost_temp[counter] = i;
+			counter++;
+
+		}
+	}
+
+	for (int i = 0;i < counter;i++) 
+	{
+		pole[i] = cetnost_temp[i];
+	}
+
+	return counter;
+}
+
 int main()
 {
 
-	//*
+	/*
 
 	int velikost_pole;
 	cout << "Zadej velikost pole: ";
@@ -80,4 +103,35 @@ int main()
 	}
 	
 	//*/
+
+	/*
+
+	int* pole = new int[13];
+
+	pole[0] = 1;
+	pole[1] = 2;
+	pole[2] = 3;
+	pole[3] = 5;
+	pole[4] = 9;
+	pole[5] = 1;
+	pole[6] = 4;
+	pole[7] = 7;
+	pole[8] = 8;
+	pole[9] = 1;
+	pole[10] = 8;
+	pole[11] = 2;
+	pole[12] = 3;
+
+
+
+	int pocet = najdi_indexy_vyskytu_hodnoty(pole, 13, 1);
+
+	for (int i = 0; i < pocet; i++)
+	{
+
+		cout << pole[i] << "\n";
+
+	}
+
+	*//
 }

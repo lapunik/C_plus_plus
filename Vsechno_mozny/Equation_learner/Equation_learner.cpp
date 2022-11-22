@@ -3,7 +3,9 @@
 #include <vector>
 #include <random>
 #include <string>
+#include <list>
 #include <math.h>
+#include <fstream>
 #include <algorithm>
 #include <numeric>
 #include <chrono>
@@ -1148,6 +1150,68 @@ void export_graph(std::vector<double> x, std::vector<std::vector<double>> y, int
 
 }
 
+std::vector<std::vector<double>> load_input_data()
+{
+    std::vector<std::vector<double>> x(2);
+
+    x.at(0).resize(200);
+    x.at(1).resize(200);
+
+    std::fstream file;
+
+    file.open("input_data.csv", std::ios::in);
+
+    std::string myText;
+
+    getline(file, myText);
+   
+    std::string s = "";
+    int  i = 0;
+
+    for (char c : myText)
+    {
+        if (c == ',')
+        {
+            x.at(0).at(i) = stod(s);
+            i++;
+            s = "";
+        }
+        else 
+        {
+            s = s + c;
+        }
+    }
+
+    x.at(0).at(i) = stod(s);
+
+    getline(file, myText);
+
+    s = "";
+    i = 0;
+
+    for (char c : myText)
+    {
+        if (c == ',')
+        {
+            x.at(1).at(i) = stod(s);
+            i++;
+            s = "";
+        }
+        else
+        {
+            s = s + c;
+        }
+    }
+
+    x.at(1).at(i) = stod(s);
+
+
+    file.close();
+   
+    return x;
+
+}
+
 int main()
 {
 
@@ -1155,7 +1219,7 @@ int main()
 
     double alpha = 0.05;   // learning koeficient
     double tau = 0.001;     // toerance 
-    int N = 10000;           // max number of interation
+    int N = 1000;           // max number of interation
 
     // vstupy musí mít stejný počet prvků!! nejedná se o kombinaci, ale o posloupnosti!
     // posloupnost nemusí být lineárně stoupající! může se jednat klidně o náhodné čísla
@@ -1164,29 +1228,38 @@ int main()
 
     std::vector<std::vector<double>> x = { generate(0.5, 3.5, 200) };
 
-
     std::vector<std::vector<function>> net =
     {
         {id, sin, times},
         {divide}
     };
 
-    std::vector<std::vector<std::vector<double>>> koef = initialize_koeficients(net,x.size(), 1.0, 0.0);
+    std::vector<std::vector<std::vector<double>>> koef = initialize_koeficients(net, x.size(), 1.0, 0.0);
 
     koef.at(0).at(0).at(0) = 0.0, koef.at(0).at(0).at(1) = M_PI, koef.at(0).at(1).at(0) = 0.0, koef.at(0).at(1).at(2) = 0.0, koef.at(0).at(1).at(3) = 0.0, koef.at(0).at(1).at(4) = 0.0;
     koef.at(1).at(0).at(2) = 1.0;
 
     std::vector<double> y0 = calculate(x, net, koef); // výpočet požadovaných hodnot, na které model fitujeme 
     y0 = noise_generate(y0, 0.05); // zanesení dat šumem
+
+    std::vector<std::vector<double>> data = load_input_data();
+
+    x.at(0) = data.at(0);
+
+    y0 = data.at(1);
+
     plot(x, y0, 30);
 
     std::vector<double> regularization_range;
 
-    for (double i = 0.00001; i <= 0.1; i *= 10)
-    {
-        regularization_range.push_back(i);
-        //regularization_range.push_back(0.00001);
-    }
+    //for (double i = 0.00001; i <= 0.1; i *= 10)
+    //{
+    //    regularization_range.push_back(i);
+    //    //regularization_range.push_back(0.00001);
+    //}
+
+    regularization_range.push_back(0);
+    
 
     std::vector<double> MSE(regularization_range.size());
 
@@ -1202,7 +1275,7 @@ int main()
 
         plot(x, { y0, y1 }, 30);
 
-        //export_graph(x.at(0), { y1,y0 }, 1000, 750, name + std::to_string(regularization_range.at(i)) + ".png");
+        export_graph(x.at(0), { y1,y0 }, 1000, 750, name + std::to_string(regularization_range.at(i)) + ".png");
 
         print_koef(koef);
 
@@ -1219,3 +1292,4 @@ int main()
     // okenní aplikace:
 
 }
+

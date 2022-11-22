@@ -4,6 +4,22 @@ using namespace std;
 
 int main()
 {
+
+    int polomer = 0;
+
+    cout << "**_Obsah a obvod kruhu_**\n\nZadej polomer: ";
+    cin >> polomer;
+
+    if (polomer > 0)
+    {
+        cout << "\nObvod kruhu je: " << 2 * polomer * 3.14 << "\tObsah kruhu je : " << polomer * polomer * 3.14 << "\n";
+    }
+    else
+    {
+        cout << "\nSpatne zadana hodnota!\n";
+    }
+
+
     /* Kontrola věku:
 
     int hodnota = 0;
@@ -75,7 +91,7 @@ int main()
     //*/
 
 
-    //* // dotaz na ukončení programu
+    /* // dotaz na ukončení programu
 
     bool pokracovat = true;
     string text = "???";
@@ -96,7 +112,7 @@ int main()
         {
             cout << "Zadej pouze hodnotu \"ano\" nebo \"ne\".\n";
         }
-            
+
     }
 
     cout << "Dekuji";

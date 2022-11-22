@@ -1,11 +1,28 @@
 ﻿#include<iostream>
-#include<string>
-#include<limits>
+
+
+void dekrement_pole(int* pole, int velikost_pole)
+{
+	for (int i = 0; i < velikost_pole; i++)
+	{
+		pole[i] -= 1;
+	}
+}
 
 int main()
 {
 
-	int a = INT_MAX;
+	int* pole = new int[5];
+	pole[0] = 4;
+	pole[1] = 8;
+	pole[2] = 3;
+	pole[3] = 1;
+	pole[4] = 7;
 
-	std::cout << a << "\t" << static_cast<float>(a) << "\t" << (float)a;
+	dekrement_pole(pole, 5);
+
+	for (int i = 0; i < 5; i++)
+	{
+		std::cout << pole[i] << "\n";
+	}
 }

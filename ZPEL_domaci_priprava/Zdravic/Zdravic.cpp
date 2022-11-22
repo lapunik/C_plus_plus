@@ -2,11 +2,11 @@
 
 #include <iostream>
 
-//using namespace std;
+using namespace std;
 
 int main()
 {
-	/* Prvni programek
+	//* Prvni programek
 
 	int hodnota; // celociselna hondota
 	double hodnota2; // desetinna hodnota
@@ -16,7 +16,7 @@ int main()
 	cin >> hodnota;
 
 	cout << "Zadana hodnota je " << hodnota << " neco";
-	*/
+	//*/
 
 
 	/* Pozdrav se jmenem
