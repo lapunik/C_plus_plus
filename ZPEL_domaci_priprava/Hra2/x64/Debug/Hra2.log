@@ -1,2 +1,2 @@
 ﻿  Hra2.cpp
-  Hra2.vcxproj -> C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\ZPEL_domaci_priprava\x64\Debug\Hra2.exe
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\ZPEL_domaci_priprava\Hra2\Hra2.cpp(174,57): error C2065: velikost_hada: nedeklarovaný identifikátor

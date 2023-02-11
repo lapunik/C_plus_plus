@@ -1,2 +1,3 @@
 ﻿  Zapis_do_souboru.cpp
-  Zapis_do_souboru.vcxproj -> C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\ZPEL_domaci_priprava\x64\Debug\Zapis_do_souboru.exe
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\ZPEL_domaci_priprava\Zapis_do_souboru\Zapis_do_souboru.cpp(85,9): error C2374: text: předefinování; vícenásobná inicializace
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\ZPEL_domaci_priprava\Zapis_do_souboru\Zapis_do_souboru.cpp(72): message : viz deklarace: text

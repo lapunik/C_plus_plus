@@ -12,12 +12,12 @@ public:
 	int vek;
 };
 
-bool porovnej_IQ(Osoba &a, Osoba &b)
+bool porovnej_IQ(Osoba& a, Osoba& b)
 {
 	return a.IQ < b.IQ;
 }
 
-bool porovnej_vek(Osoba &a, Osoba &b)
+bool porovnej_vek(Osoba& a, Osoba& b)
 {
 	return a.vek < b.vek;
 }
@@ -27,7 +27,7 @@ bool porovnej_jmeno(Osoba& a, Osoba& b)
 	return a.jmeno < b.jmeno;
 }
 
-bool porovnej_IQ_vek(Osoba &a, Osoba &b)
+bool porovnej_IQ_vek(Osoba& a, Osoba& b)
 {
 	return (a.IQ / a.vek) < (b.IQ / b.vek);
 }
@@ -83,7 +83,7 @@ int main()
 	//	std::cout << i << "\n";
 	//}
 
-	
+
 	///////////////////// metodu lze ale použít jěště trochu jinak, a to se zadáním i určité porovnávací funcke //////////////////////////////////////////////
 
 	//int* cisla = new int[5];
@@ -122,14 +122,14 @@ int main()
 
 	for (int i = 0; i < 5; i++)
 	{
-		std::cout << osoby[i].jmeno << "\t" << osoby[i].vek << " let\t"<< osoby[i].IQ << " iq\n";
+		std::cout << osoby[i].jmeno << "\t" << osoby[i].vek << " let\t" << osoby[i].IQ << " iq\n";
 	}
 
 	std::cout << "\n";
 
 	// std::sort(osoby, osoby + 5); // tento kód by nyní nepochodil. Sort neví jestli chceme seřadit třídu podle stringu jméno, nebo podle věku, či IQ... proto musíme vytvořit funkci kde to funcki sort objasníme
 
-	std::sort(osoby, osoby + 5,porovnej_vek); // pozor!! ve funkcích musí být pro vatupy reference & aby nám funkce sort byla schopna pole setřídit
+	std::sort(osoby, osoby + 5, porovnej_vek); // pozor!! ve funkcích musí být pro vatupy reference & aby nám funkce sort byla schopna pole setřídit
 
 
 	for (int i = 0; i < 5; i++)

@@ -19,16 +19,15 @@ int main()
 	//*/
 	
 	//*
-	int a;
-
+	double a; 
 	cout << "Zadej cislo: ";
-
 	cin >> a;
 	while (cin.fail())
 	{
 		cout << "Zadana hodnota neni typu int!\nZadej cislo: ";
 		cin.clear();
-		cin.ignore(256,'\n');
+		//cin.ignore(1,'\n');
+		cin.ignore(256,'\n'); //  2^64 - 1
 		cin >> a;
 	}
 	//*/

@@ -1,0 +1,13 @@
+﻿  Ukazka_funkci_s_ukazately.cpp
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\ZPEL_domaci_priprava\Ukazka_funkci_s_ukazately\Ukazka_funkci_s_ukazately.cpp(72,7): error C2040: a: int * se liší od: int úrovněmi indirekce.
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\ZPEL_domaci_priprava\Ukazka_funkci_s_ukazately\Ukazka_funkci_s_ukazately.cpp(73,7): error C2040: b: int * se liší od: int úrovněmi indirekce.
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\ZPEL_domaci_priprava\Ukazka_funkci_s_ukazately\Ukazka_funkci_s_ukazately.cpp(74,2): error C2100: neplatná indirekce
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\ZPEL_domaci_priprava\Ukazka_funkci_s_ukazately\Ukazka_funkci_s_ukazately.cpp(75,2): error C2100: neplatná indirekce
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\ZPEL_domaci_priprava\Ukazka_funkci_s_ukazately\Ukazka_funkci_s_ukazately.cpp(77,21): error C2100: neplatná indirekce
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\ZPEL_domaci_priprava\Ukazka_funkci_s_ukazately\Ukazka_funkci_s_ukazately.cpp(77,18): error C2088: <<: neplatné pro: class
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\ZPEL_domaci_priprava\Ukazka_funkci_s_ukazately\Ukazka_funkci_s_ukazately.cpp(77,38): error C2100: neplatná indirekce
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\ZPEL_domaci_priprava\Ukazka_funkci_s_ukazately\Ukazka_funkci_s_ukazately.cpp(81,21): error C2100: neplatná indirekce
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\ZPEL_domaci_priprava\Ukazka_funkci_s_ukazately\Ukazka_funkci_s_ukazately.cpp(81,18): error C2088: <<: neplatné pro: class
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\ZPEL_domaci_priprava\Ukazka_funkci_s_ukazately\Ukazka_funkci_s_ukazately.cpp(81,38): error C2100: neplatná indirekce
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\ZPEL_domaci_priprava\Ukazka_funkci_s_ukazately\Ukazka_funkci_s_ukazately.cpp(83,6): error C2374: c: předefinování; vícenásobná inicializace
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\ZPEL_domaci_priprava\Ukazka_funkci_s_ukazately\Ukazka_funkci_s_ukazately.cpp(36): message : viz deklarace: c

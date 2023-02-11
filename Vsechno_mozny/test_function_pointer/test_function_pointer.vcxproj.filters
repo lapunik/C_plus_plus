@@ -18,19 +18,5 @@
     <ClCompile Include="test_function_pointer.cpp">
       <Filter>Zdrojové soubory</Filter>
     </ClCompile>
-    <ClCompile Include="supportLib.cpp">
-      <Filter>Zdrojové soubory</Filter>
-    </ClCompile>
-    <ClCompile Include="pbPlots.cpp">
-      <Filter>Zdrojové soubory</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="supportLib.h">
-      <Filter>Hlavičkové soubory</Filter>
-    </ClInclude>
-    <ClInclude Include="pbPlots.h">
-      <Filter>Hlavičkové soubory</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>

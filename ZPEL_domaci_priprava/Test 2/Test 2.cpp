@@ -99,9 +99,13 @@ void vypis_ceny(double cena_bez_dopravy)
 
 class Taxi 
 {
+private :
+
+	bool inicialized = false;
+
 public:
-	double kilometry;
-	double cena_bez_nastupu;
+	double kilometry = 0;
+	double cena_bez_nastupu = 0;
 
 	Taxi(double k)
 	{

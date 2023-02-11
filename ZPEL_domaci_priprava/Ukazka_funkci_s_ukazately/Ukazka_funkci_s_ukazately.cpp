@@ -31,6 +31,13 @@ int Inkrement(int hodnota)
 
 int main()
 {
+	int a = 5;
+	int b = 6;
+	int c = 8;
+
+	Inkrement_II(a,b,c);
+
+
 	/*
 
 	int a = 15, b = 7, c = 8;

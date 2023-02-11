@@ -16,7 +16,7 @@ public:
 	
 	Complex operator + (Complex& b) 
 	{
-		return Complex(re + b.re, im + b.im);
+		return Complex(re + b.re, im * b.im);
 	}
 
 	Complex operator * (int b)

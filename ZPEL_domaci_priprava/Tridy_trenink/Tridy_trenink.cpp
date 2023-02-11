@@ -34,8 +34,6 @@ public:
         c = cc;
     }
 
-
-
     Kvadr(int aa, int bb, int cc, Kvadr::material m)
     {
         a = aa;
@@ -71,7 +69,7 @@ public:
         return objem;
     }
 
-    int Vrat_objem() 
+    int vypis_objem() 
     {
         return objem;
     }

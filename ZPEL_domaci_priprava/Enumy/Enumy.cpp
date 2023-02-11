@@ -1,7 +1,7 @@
 ﻿#include <iostream>
 
 using namespace std;
-/*
+//*
 enum Rasa
 {
 	clovek,

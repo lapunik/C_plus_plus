@@ -1,2 +1,5 @@
 ﻿  Euler.cpp
-  Euler.vcxproj -> C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\ZPEL_domaci_priprava\x64\Debug\Euler.exe
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\ZPEL_domaci_priprava\Euler\Euler.cpp(200,9): error C2374: n: předefinování; vícenásobná inicializace
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\ZPEL_domaci_priprava\Euler\Euler.cpp(197): message : viz deklarace: n
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\ZPEL_domaci_priprava\Euler\Euler.cpp(201,12): error C2374: e: předefinování; vícenásobná inicializace
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\ZPEL_domaci_priprava\Euler\Euler.cpp(198): message : viz deklarace: e

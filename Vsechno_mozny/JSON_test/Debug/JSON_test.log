@@ -1,8 +1,4 @@
 ﻿  JSON_test.cpp
-C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\JSON_test\JSON_test.cpp(114,21): warning C4018: <: signed/unsigned – neshoda
-C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\JSON_test\JSON_test.cpp(116,22): warning C4018: <: signed/unsigned – neshoda
-C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\JSON_test\JSON_test.cpp(118,23): warning C4018: <: signed/unsigned – neshoda
-C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\JSON_test\JSON_test.cpp(198,16): warning C4244: =: double se převádí na int; může dojít ke ztrátě dat.
-C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\JSON_test\JSON_test.cpp(211,20): warning C4018: <: signed/unsigned – neshoda
-C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\JSON_test\JSON_test.cpp(231,20): warning C4018: <: signed/unsigned – neshoda
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\JSON_test\JSON_test.cpp(269,11): warning C4244: inicializování: double se převádí na int; může dojít ke ztrátě dat.
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\JSON_test\JSON_test.cpp(276,19): warning C4244: =: double se převádí na int; může dojít ke ztrátě dat.
   JSON_test.vcxproj -> C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Debug\JSON_test.exe

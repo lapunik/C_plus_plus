@@ -1,5 +1,2 @@
 ﻿  test_function_pointer.cpp
-C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\test_function_pointer\test_function_pointer.cpp(12,16): error C2065: xs: nedeklarovaný identifikátor
-C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\test_function_pointer\test_function_pointer.cpp(13,16): error C2065: ys: nedeklarovaný identifikátor
-C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\test_function_pointer\test_function_pointer.cpp(19,17): error C2065: xs2: nedeklarovaný identifikátor
-C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\test_function_pointer\test_function_pointer.cpp(20,17): error C2065: ys2: nedeklarovaný identifikátor
+  test_function_pointer.vcxproj -> C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\Vsechno_mozny\Debug\test_function_pointer.exe

@@ -1,42 +1,31 @@
 ﻿#include <iostream>
-#include <string>
-#include "pbPlots.h"
-#include "supportLib.h"
+#include <functional>
 
-int main()
+template <typename T>
+class FunctionPointer {
+public:
+    FunctionPointer(T&& f) : func(std::forward<T>(f)) {}
+
+    std::function<T> func;
+};
+
+auto soucet(int x, double y)
 {
+    return x * y;
+}
 
-	RGBABitmapImageReference canvasReference1 = CreateRGBABitmapImageReference();
-	RGBABitmapImageReference canvasReference2 = CreateRGBABitmapImageReference();
-	RGBABitmapImageReference canvasReference3 = CreateRGBABitmapImageReference();
-	RGBABitmapImageReference canvasReference4 = CreateRGBABitmapImageReference();
-	RGBABitmapImage combined = CreateImage(250 * 2, 200 * 2, GetWhite());
-	RGBABitmapImage image1, image2, image3, image4;
-
-	double[] xs = { -2, -1, 0, 1, 2 };
-
-	double[] ys1 = { 2, -1, -2, -1, 2 };
-	double[] ys2 = { -2, 1, 2, 1, -2 };
-	double[] ys3 = { 0, 1, 2, 3, 4 };
-	double[] ys4 = { 0, -1, -2, -3, -4 };
-
-	boolean success;
-	success = DrawScatterPlot(canvasReference1, 250, 200, xs, ys1);
-	success = success && DrawScatterPlot(canvasReference2, 250, 200, xs, ys2);
-	success = success && DrawScatterPlot(canvasReference3, 250, 200, xs, ys3);
-	success = success && DrawScatterPlot(canvasReference4, 250, 200, xs, ys4);
-
-	if (success) {
-		image1 = canvasReference1.image;
-		image2 = canvasReference2.image;
-		image3 = canvasReference3.image;
-		image4 = canvasReference4.image;
-
-		DrawImageOnImage(combined, image1, 0, 0);
-		DrawImageOnImage(combined, image2, 0, 200);
-		DrawImageOnImage(combined, image3, 250, 0);
-		DrawImageOnImage(combined, image4, 250, 200);
-	}
+auto pozdrav(std::string s)
+{
+    return s + "Hello";
+}
 
 
+int main() {
+    FunctionPointer<decltype(soucet)> pointer(soucet);
+    auto x = 10;
+    auto y = 5;
+    std::cout << "Soucet " << x << " + " << y << " = " << pointer.func(5, 2) << std::endl;
+
+    FunctionPointer<decltype(pozdrav)> pointer2(pozdrav);
+    std::cout << pointer2.func("Ahoj = ") << std::endl;
 }

@@ -78,7 +78,7 @@ int main()
 
     //vysledek = Deleno(citatel, jmenovatel);
    
-    /*
+    //*
     vysledek = Deleno(citatel, jmenovatel);
     if (vysledek == -1.0)
     {

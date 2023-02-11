@@ -1,0 +1,4 @@
+﻿  Geometric_shapes.cpp
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\ZPEL_domaci_priprava\Geometric_shapes\Geometric_shapes.cpp(41,20): warning C4244: inicializování: double se převádí na int; může dojít ke ztrátě dat.
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\ZPEL_domaci_priprava\Geometric_shapes\Geometric_shapes.cpp(42,24): warning C4244: inicializování: double se převádí na int; může dojít ke ztrátě dat.
+  Geometric_shapes.vcxproj -> C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\ZPEL_domaci_priprava\x64\Debug\Geometric_shapes.exe

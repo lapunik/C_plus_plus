@@ -113,18 +113,18 @@ int main()
 
 	//*/
 
-	/*
+	//*
 
-	int *a = NULL;
+	int *a = nullptr;
 
 	cout << "Adresa hodnoty: " << a << "\nAdresa adresy: " << &a << "\nHodnota: bez hodnoty" << "\n\n";
 
-	Zmena_ukazatele_ve_funkci(&a);
+	//Zmena_ukazatele_ve_funkci(&a);
 	//Zmena_ukazatele_ve_funkci_II(a);
-	//Zmena_ukazatele_ve_funkci_NEFUNKCNI(a);
+	Zmena_ukazatele_ve_funkci_NEFUNKCNI(a);
 
-	cout << "Adresa hodnoty: " << a << "\nAdresa adresy: " << &a << "\nHodnota: " << *a << "\n\n";
+	//cout << "Adresa hodnoty: " << &a << "\nAdresa adresy: " << &a << "\nHodnota: " << *a << "\n\n";
 
 	//*/
 
- }
+}

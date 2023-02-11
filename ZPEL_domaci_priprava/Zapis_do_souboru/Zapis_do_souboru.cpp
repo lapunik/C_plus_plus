@@ -18,7 +18,7 @@ int main()
 	//*/
 
 	// Znovu otevření stejného souboru jako ios::out 
-	/* 
+	//*
 	nazev_promene.open("textovy_soubor.txt", ios::out); // Když zavřu a zase otevřu, tak se ale soubor opět přepíše, protože ios::out
 
 	nazev_promene << "Nejakej uplne jinej text\n";
@@ -27,7 +27,7 @@ int main()
 	//*/
 
 	// Otevření nového souboru
-	/*
+	//*
 	nazev_promene.open("textovy_soubor2.txt", ios::out);
 
 	nazev_promene << "Nejakej uplne jinej text\n";
@@ -36,7 +36,7 @@ int main()
 	//*/
 
 	// Otevření pro připsání (ios::app)
-	/*		
+	//*		
 	nazev_promene.open("textovy_soubor.txt", ios::app); // Soubor se nepřepisuje, text se přidává na konec
 
 	nazev_promene << "Dalsi pridanej text\n";
@@ -46,7 +46,7 @@ int main()
 
 
 	// ukázka bezpečného volání s is_open()
-	/* 
+	//* 
 	
 	nazev_promene.open("textovy_soubor.txt", ios::out);
 
@@ -66,7 +66,7 @@ int main()
 
 
 	// Otevření jako pro čtení (ios::in)
-	/*		
+	//*		
 	nazev_promene.open("textovy_soubor.txt", ios::in); // Soubor se nepřepisuje, text se přidává na konec
 
 	string text;

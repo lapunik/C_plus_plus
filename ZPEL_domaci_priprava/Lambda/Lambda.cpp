@@ -14,12 +14,14 @@ enum hodnota
     vyska 
 };
 
-struct Osoba {
+struct Osoba 
+{
     int vek;
     float vyska;
 };
 
-bool porovnani_veku (Osoba &a,Osoba &b) {
+bool porovnani_veku (Osoba &a,Osoba &b) 
+{
     return a.vek < b.vek;
 }
 
@@ -43,7 +45,7 @@ int main() {
     //}
 
 
-     //Tady je ta lambda funkce využita právě jako třetí argument funcke sort 
+    //Tady je ta lambda funkce využita právě jako třetí argument funcke sort 
     //std::sort(osoby.begin(), osoby.end(), [](Osoba &a, Osoba &b) {return a.vyska < b.vyska; });
 
     //for (auto os : osoby)

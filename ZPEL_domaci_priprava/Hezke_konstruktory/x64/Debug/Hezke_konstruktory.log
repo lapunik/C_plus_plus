@@ -1,0 +1,3 @@
+﻿  Hezke_konstruktory.cpp
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\ZPEL_domaci_priprava\Hezke_konstruktory\Hezke_konstruktory.cpp(16,12): error C2535: Cokoliv::Cokoliv(int,double): Členská funkce už je definovaná nebo deklarovaná.
+C:\Users\vojte\OneDrive - Západočeská univerzita v Plzni\Programing\C++\ZPEL_domaci_priprava\Hezke_konstruktory\Hezke_konstruktory.cpp(8): message : viz deklarace: Cokoliv::Cokoliv

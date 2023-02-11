@@ -26,7 +26,7 @@ void Hanojske_veze(int n, char z, char na, char pomocna)
 
     Hanojske_veze(n - 1, z, pomocna, na); // Tady se jakoby střídá pomocná a poslendí věž kam odkládám menší kotouče, abych si udělal místo na větší kotouč
 
-    cout << "Presun kotouc " << n << " z veze " << z << " na vez " << na << "\n";
+    cout << "Presun kotouc " << n << " z veze " << z << " na vez " << na <<  "\n";
 
     Hanojske_veze(n - 1, pomocna, na, z); // Tady se pak jakoby rozebírá pomocně vyrobená věž 
 }
@@ -59,9 +59,10 @@ int Faktorial(int n)
 int main()
 {
 
-    cout << Faktorial(5) << "\n";
+    //cout << Faktorial(5) << "\n";
 
     //cout << Faktorial_rekurzivne(5) << "\n";
 
     //Hanojske_veze(4, 'A', 'B', 'C');
+
 }
